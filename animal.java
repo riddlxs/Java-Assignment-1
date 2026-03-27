@@ -2,14 +2,14 @@ public class Animal { // create the animal class and make it public so it can be
 
     private String name; // create the strings and int (for numbered age) for the animal class to run
                          // with the zoo class
-    private String color;
+    private String Color;
     private int age;
     private String favFood;
 
-    public Animal(String name, String color, int age, String favFood) {
+    public Animal(String name, String Color, int age, String favFood) {
         this.name = name; // use this. since professor said its important to know the exact variable being
                           // used
-        this.color = color; // this variable color is the same one being used in the zoo class so this. is
+        this.Color = Color; // this variable Color is the same one being used in the zoo class so this. is
                             // needed
         this.age = age;
         this.favFood = favFood;
@@ -23,8 +23,8 @@ public class Animal { // create the animal class and make it public so it can be
         return name; // get the name inputted and return it to the zoo class.
     }
 
-    public String getcolor() { // same as above, get the color (data) inputted and return it to the zoo class
-        return color;
+    public String getColor() { // same as above, get the Color (data) inputted and return it to the zoo class
+        return Color;
     }
 
     public int getAge() {
@@ -43,8 +43,8 @@ public class Animal { // create the animal class and make it public so it can be
         this.name = name;
     }
 
-    public void setcolor(String color) {
-        this.color = color;
+    public void setColor(String Color) {
+        this.Color = Color;
     }
 
     public void setAge(int age) {
@@ -61,7 +61,7 @@ public class Animal { // create the animal class and make it public so it can be
                                  // of the animal
         System.out.printf("Animal Details:\n"); // /n means new line (makes it look cleaner)
         System.out.printf("Name: %s\n", name); // %s is used for strings
-        System.out.printf("color: %s\n", color);
+        System.out.printf("Color: %s\n", Color);
         System.out.printf("Age: %d\n", age); // %d is used for integers since the age being inputted is a number, not
                                              // string
         System.out.printf("Favorite Food: %s\n", favFood);

@@ -7,8 +7,8 @@ public class Zoo { // create the class zoo
         System.out.print("Enter animal name: "); // prompt the user to enter an animal name
         String name = scanner.nextLine(); // read the animal name from the user input
 
-        System.out.print("Enter animal color: "); // Copy the same code above but change the prompt to ask the user
-        String color = scanner.nextLine(); // same code as above again, now the string name is changed to color, NOT
+        System.out.print("Enter animal Color: "); // Copy the same code above but change the prompt to ask the user
+        String Color = scanner.nextLine(); // same code as above again, now the string name is changed to Color, NOT
                                            // name
 
         System.out.print("Enter animal age: "); // same code as above again, but now the prompt is asking for the animal
@@ -22,8 +22,8 @@ public class Zoo { // create the class zoo
         String favFood = scanner.nextLine(); // create the string fav food to read the user input for the animal's
                                              // favorite food
 
-        Animal animal = new Animal(name, color, age, favFood); // creates a new animal object using the variables name,
-                                                               // color, age, and favFood
+        Animal animal = new Animal(name, Color, age, favFood); // creates a new animal object using the variables name,
+                                                               // Color, age, and favFood
 
         System.out.println(); // print a blank line for better formatting
         animal.printDetails(); // now the animal has been created with user inputs, we can print the details
