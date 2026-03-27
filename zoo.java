@@ -15,6 +15,8 @@ public class Zoo { // create the class zoo
                                                 // age
         int age = scanner.nextInt(); // read the animal age from the user input, but this time it is an integer, not
                                      // a string since its a number being imputted
+        scanner.nextLine(); // wasnt letting user input fav food, so needed this to read until next enter
+                            // press not the enter after inputting the age
 
         System.out.print("Enter animal's favorite food: "); // same code but for animal's favorite food
         String favFood = scanner.nextLine(); // create the string fav food to read the user input for the animal's
