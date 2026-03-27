@@ -10,7 +10,7 @@ The prompts I used were why it is important to have the driver class zoo.java an
 
 c.	If you encountered any concepts not yet covered in class, briefly explain how you researched or learned about them.
 
-    I didnt really encounter anything new, I was taught more indepth how to format the code using /n and %d and %s but this was already taught, I got more of a refresher. 
+I didnt really encounter anything new, I was taught more indepth how to format the code using /n and %d and %s but this was already taught, I got more of a refresher. 
 
 2.	How Did You Understand, Verify, and Adapt the Code?
 
